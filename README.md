@@ -22,7 +22,7 @@ cd src
 
 2. Install dependencies:
 
-pdm install1
+pdm install
 
 3. Set up Google Sheets credentials:
    - Create a project in Google Cloud Console
@@ -35,7 +35,7 @@ pdm install1
 1. Create a `.env` file in the project root:
 
 SPREADSHEET_ID=your_spreadsheet_id
-SHEET_NAME=your_sheet_name
+SERVICE_ACCOUNT_FILE=your_service_account_file_name e.g. credentials.json
 
 
 ## Development

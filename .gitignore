@@ -137,3 +137,7 @@ user_info.json
 
 # Config files
 prophetxint.json
+
+temp/
+.pdm-python
+logs/

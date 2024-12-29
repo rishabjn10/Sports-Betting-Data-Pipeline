@@ -40,3 +40,4 @@ URL = {
 # Path to your service account key file
 SERVICE_ACCOUNT_FILE = os.getenv("SERVICE_ACCOUNT_FILE")
 SPREADSHEET_ID = os.getenv("SPREADSHEET_ID")
+SHEET_NAME = os.getenv("SHEET_NAME")
